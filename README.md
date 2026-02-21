@@ -24,8 +24,28 @@ A clean and interactive **Student Management System** built using **Python** and
 ---
 
 ## 📂 Project Structure
-
+Student-Management-System/
+│
+├── app.py # Streamlit frontend (UI logic)
+├── Student_Management_System.py # Core backend logic (OOP + CRUD)
+├── README.md # Project documentation
+├── .gitignore # Files ignored by Git
+└── students.json # Local data storage (auto-generated)
 ---
+### 🔎 File Descriptions
+
+- **app.py** → Handles Streamlit UI, navigation, and user interaction.
+- **Student_Management_System.py** → Contains Student and StudentManager classes with CRUD logic.
+- **students.json** → Stores student data persistently in JSON format.
+- **.gitignore** → Prevents unnecessary files like venv and cache from being pushed to GitHub.
+
+## 🏗 Architecture Overview
+
+The project follows a clean separation of concerns:
+
+- **Frontend Layer (Streamlit)** → Handles UI rendering and session management.
+- **Business Logic Layer (OOP)** → Manages student operations using object-oriented design.
+- **Persistence Layer (JSON File)** → Ensures data remains stored across sessions.
 
 ## ▶️ How to Run the Project
 
