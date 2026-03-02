@@ -3,6 +3,13 @@
 A clean and interactive **Student Management System** built using **Python** and **Streamlit**, supporting full CRUD operations with persistent storage.
 
 ---
+# 🎓 Student Management System
+
+🚀 Live App: https://sandeep-student-app.streamlit.app  
+
+---
+
+## Overview
 
 ## 🚀 Features
 - Add new students
